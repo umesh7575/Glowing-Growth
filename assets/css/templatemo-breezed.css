@@ -885,7 +885,23 @@ ul.slick-dots {
   display: none!important;
 }
 
-.Modern-Slider .text-content {
+.Modern-Slider .text-content1 {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Modern-Slider .text-content2 {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.Modern-Slider .text-content3 {
   width: 80%;
   position: absolute;
   top: 50%;
@@ -909,7 +925,6 @@ ul.slick-dots {
   font-weight: 200;
   letter-spacing: 2.5px;
   color:#FFF;
-  /* overflow:hidden; */
   animation:fadeOutLeft 1s both;
 }
 
